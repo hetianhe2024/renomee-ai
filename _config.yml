@@ -1,0 +1,15 @@
+# 网站基本配置
+title: Renomee AI 博客
+description: 分享工具和技术
+baseurl: "/renomee-ai"
+url: "https://hetianhe2024.github.io"
+
+# 构建设置
+theme: minima
+plugins:
+  - jekyll-feed
+
+# 作者信息（可选）
+author:
+  name: Your Name
+  email: your-email@example.com
