@@ -2,7 +2,7 @@
 layout: post
 title: "告别正则表达式：Renomee AI 让文件重命名回归简单"
 date: 2025-01-20
-categories: 工具推荐 AI应用
+categories: tool-recommend AIapplication
 description: "Renomee AI用自然语言替代复杂正则表达式，让批量文件重命名变得简单高效。零学习成本，智能识别内容，预览确认机制，提升工作效率10倍。"
 ---
 
