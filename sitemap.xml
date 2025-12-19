@@ -32,8 +32,17 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+
+  <!-- 博客文章 - 三方URL测试-->
+  <url>
+    <loc>https://medium.com/@hetianhe2012/i-write-a-website-for-image-tool-12e887160b3f</loc>
+    <lastmod>2025-01-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
   
 </urlset>
+
 
 
 
