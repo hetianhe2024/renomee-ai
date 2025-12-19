@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hetianhe2024.github.io/renomee-ai/sitemap.xml
