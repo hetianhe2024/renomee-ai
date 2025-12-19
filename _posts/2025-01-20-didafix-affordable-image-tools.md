@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "图片处理不再难：滴答修让专业工具变得触手可及"
-date: 2025-01-20 16:00:00 +0800
-categories: [tool-recommend, img-edit-tool]
-tags: [滴答修, 图片转PDF, OCR, 抠图, 图片压缩]
+date: 2025-01-20
+categories: tool-recommend img-edit-tool
+description: "滴答修按次计费图片处理工具,0.2-0.3元/次。AI抠图、格式转换、压缩优化、去水印等功能,无订阅费,比传统工具便宜99%。"
 ---
 
 ## 普通用户的图片处理困境
