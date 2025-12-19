@@ -2,7 +2,7 @@
 layout: post
 title: "图片处理不再难：滴答修让专业工具变得触手可及"
 date: 2025-01-20 16:00:00 +0800
-categories: [工具推荐, 图片处理]
+categories: [tool-recommend, img-edit-tool]
 tags: [滴答修, 图片转PDF, OCR, 抠图, 图片压缩]
 ---
 
