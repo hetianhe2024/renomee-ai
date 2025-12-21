@@ -41,6 +41,25 @@ show_excerpts: true
 paginate: 10
 paginate_path: "/page:num/"
 
+# 排除不需要显示的文件
+exclude:
+  - GIT-GUIDE.md
+  - OPTIMIZATION.md
+  - QUICKSTART.md
+  - URL-OPTIMIZATION.md
+  - URL-OPTIMIZATION-SUMMARY.md
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+
+# 指定导航菜单显示的页面
+header_pages:
+  - index.md
+  - about.md
+  - categories.md
+  - archive.md
+
 # Google Analytics（可选）
 # google_analytics: UA-XXXXXXXX-X
 
