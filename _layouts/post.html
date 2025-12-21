@@ -1,0 +1,173 @@
+---
+layout: default
+---
+
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    
+    {%- if page.categories.size > 0 -%}
+    <div class="post-categories">
+      {%- for category in page.categories -%}
+        <a href="/categories/#{{ category | slugify }}" class="category-tag">{{ category }}</a>
+      {%- endfor -%}
+    </div>
+    {%- endif -%}
+    
+    <p class="post-meta">
+      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        📅 {{ page.date | date: "%Y年%m月%d日" }}
+      </time>
+      {%- if page.author -%}
+        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
+      {%- endif -%}
+      • ⏱️ 阅读时长 {{ content | number_of_words | divided_by: 350 | plus: 1 }} 分钟
+    </p>
+    
+    {%- if page.description -%}
+    <div class="post-description">
+      {{ page.description }}
+    </div>
+    {%- endif -%}
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  {%- include share-buttons.html -%}
+
+  {%- if page.tags -%}
+  <div class="post-tags">
+    <h4>标签</h4>
+    <div class="tags-list">
+      {%- for tag in page.tags -%}
+        <span class="tag-item">#{{ tag }}</span>
+      {%- endfor -%}
+    </div>
+  </div>
+  {%- endif -%}
+
+  <div class="post-navigation">
+    {%- if page.previous.url -%}
+    <a href="{{ page.previous.url | relative_url }}" class="prev-post">
+      ← {{ page.previous.title | escape }}
+    </a>
+    {%- endif -%}
+    
+    {%- if page.next.url -%}
+    <a href="{{ page.next.url | relative_url }}" class="next-post">
+      {{ page.next.title | escape }} →
+    </a>
+    {%- endif -%}
+  </div>
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>
+
+<style>
+.post-header {
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 2px solid #e2e8f0;
+}
+
+.post-title {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  color: #1e293b;
+  margin-bottom: 1rem;
+}
+
+.post-description {
+  font-size: 1.15rem;
+  color: #64748b;
+  line-height: 1.7;
+  margin-top: 1rem;
+  padding: 1rem;
+  background: #f8fafc;
+  border-left: 4px solid #2563eb;
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.post-tags {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background: #f8fafc;
+  border-radius: 0.75rem;
+}
+
+.post-tags h4 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: #1e293b;
+}
+
+.tags-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tag-item {
+  display: inline-block;
+  background: white;
+  color: #2563eb;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  font-size: 0.9rem;
+  border: 1px solid #dbeafe;
+  font-weight: 500;
+}
+
+.post-navigation {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 2px solid #e2e8f0;
+}
+
+.post-navigation a {
+  flex: 1;
+  padding: 1rem;
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  color: #334155;
+  transition: all 0.3s;
+}
+
+.post-navigation a:hover {
+  background: #f8fafc;
+  border-color: #2563eb;
+  color: #2563eb;
+  transform: translateY(-2px);
+}
+
+.prev-post {
+  text-align: left;
+}
+
+.next-post {
+  text-align: right;
+}
+
+@media (max-width: 768px) {
+  .post-title {
+    font-size: 1.75rem;
+  }
+  
+  .post-navigation {
+    flex-direction: column;
+  }
+  
+  .next-post {
+    text-align: left;
+  }
+}
+</style>
+

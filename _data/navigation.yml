@@ -1,0 +1,22 @@
+# 导航菜单配置
+header_pages:
+  - index.md
+  - about.md
+  - categories.md
+  - archive.md
+
+# 社交媒体链接（可选）
+# social_links:
+#   - { platform: github, user_url: "https://github.com/hetianhe2024" }
+#   - { platform: twitter, user_url: "https://twitter.com/renomee_ai" }
+
+# 评论系统（可选）
+# disqus:
+#   shortname: your-disqus-shortname
+
+# 或使用 Utterances
+# utterances:
+#   repo: "hetianhe2024/renomee-ai"
+#   issue_term: "pathname"
+#   theme: "github-light"
+

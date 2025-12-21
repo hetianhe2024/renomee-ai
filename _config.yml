@@ -1,15 +1,48 @@
 # 网站基本配置
 title: Renomee AI 博客
-description: 分享工具和技术
+description: 分享实用在线工具和技术文章，包括AI驱动的图片编辑工具和智能文件重命名工具，帮助提升工作效率
 baseurl: "/renomee-ai"
 url: "https://hetianhe2024.github.io"
+lang: zh-CN
 
 # 构建设置
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
-# 作者信息（可选）
+# 文章URL格式（简化路径）
+permalink: /posts/:title/
+
+# SEO 设置
+twitter:
+  card: summary
+  username: renomee_ai
+
+social:
+  name: Renomee AI
+  links:
+    - https://xiaojingxiu.com
+    - https://xiaojingjia.top
+
+# 作者信息
 author:
-  name: Your Name
-  email: your-email@example.com
+  name: Renomee AI
+  email: hetianhe2009@163.com
+
+# 网站Logo
+logo: /assets/images/logo.png
+
+# 显示摘要
+show_excerpts: true
+
+# 分页设置
+paginate: 10
+paginate_path: "/page:num/"
+
+# Google Analytics（可选）
+# google_analytics: UA-XXXXXXXX-X
+
+# 百度统计（可选）
+# baidu_analytics: your_baidu_id
