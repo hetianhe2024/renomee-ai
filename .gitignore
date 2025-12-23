@@ -4,3 +4,6 @@ _site/
 .jekyll-metadata
 vendor/
 .bundle/
+
+# Bing IndexNow 本地密钥文件（验证文件需要提交）
+bing_api_key.txt

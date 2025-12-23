@@ -1,0 +1,14 @@
+# Renomee AI博客 - URL提交列表
+# 每行一个URL，# 开头的行会被忽略
+
+# 主要页面
+https://hetianhe2024.github.io/renomee-ai/
+https://hetianhe2024.github.io/renomee-ai/about/
+https://hetianhe2024.github.io/renomee-ai/categories/
+https://hetianhe2024.github.io/renomee-ai/archive/
+
+# 博客文章
+https://hetianhe2024.github.io/renomee-ai/posts/welcome/
+https://hetianhe2024.github.io/renomee-ai/posts/renomee-ai-goodbye-regex/
+https://hetianhe2024.github.io/renomee-ai/posts/didafix-affordable-image-tools/
+
