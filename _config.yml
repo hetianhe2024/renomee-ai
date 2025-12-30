@@ -49,9 +49,16 @@ exclude:
   - URL-OPTIMIZATION.md
   - URL-OPTIMIZATION-SUMMARY.md
   - README.md
+  - WIX-QUICK-START.md
+  - WIX-FREE-BING-STRATEGY.md
+  - WIX-BLOG-BING-SEO-GUIDE.md
+  - BING-QUICK-START.md
+  - BING-SUBMIT-GUIDE.md
   - Gemfile
   - Gemfile.lock
   - vendor/
+  - "*.py"
+  - "*.txt"
 
 # 指定导航菜单显示的页面
 header_pages:
