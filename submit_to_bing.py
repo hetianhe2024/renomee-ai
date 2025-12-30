@@ -21,7 +21,7 @@ if sys.platform == 'win32':
 CONFIG = {
     'domain': 'hetianhe2024.github.io',
     'base_path': '/renomee-ai',
-    'api_key': '',  # 留空，首次运行时自动生成
+    'api_key': 'cccb4286654e4b24a35216f3d00bb49f',  # 留空，首次运行时自动生成
     'api_endpoint': 'https://api.indexnow.org/IndexNow'
 }
 
