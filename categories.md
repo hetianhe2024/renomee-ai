@@ -3,6 +3,7 @@ layout: page
 title: 分类
 permalink: /categories/
 description: 按主题浏览博客文章
+sitemap: true
 ---
 
 <div class="categories-page">

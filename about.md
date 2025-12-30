@@ -3,6 +3,7 @@ layout: page
 title: 关于我们
 permalink: /about/
 description: 了解 Renomee AI 的使命和我们开发的实用工具产品
+sitemap: true
 ---
 
 ## 👋 关于 Renomee AI

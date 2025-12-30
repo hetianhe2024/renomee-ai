@@ -43,22 +43,24 @@ paginate_path: "/page:num/"
 
 # 排除不需要显示的文件
 exclude:
-  - GIT-GUIDE.md
-  - OPTIMIZATION.md
-  - QUICKSTART.md
-  - URL-OPTIMIZATION.md
-  - URL-OPTIMIZATION-SUMMARY.md
-  - README.md
-  - WIX-QUICK-START.md
-  - WIX-FREE-BING-STRATEGY.md
-  - WIX-BLOG-BING-SEO-GUIDE.md
-  - BING-QUICK-START.md
-  - BING-SUBMIT-GUIDE.md
   - Gemfile
   - Gemfile.lock
   - vendor/
   - "*.py"
   - "*.txt"
+
+# 默认设置：根目录的所有markdown文件不进入sitemap
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      sitemap: false
+  - scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      sitemap: true
 
 # 指定导航菜单显示的页面
 header_pages:

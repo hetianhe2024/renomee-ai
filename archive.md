@@ -3,6 +3,7 @@ layout: page
 title: 归档
 permalink: /archive/
 description: 按时间查看所有博客文章
+sitemap: true
 ---
 
 <div class="archive-page">

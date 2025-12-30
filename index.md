@@ -2,6 +2,7 @@
 layout: home
 title: "Renomee AI - 让工作更高效的智能工具"
 description: "Renomee AI博客分享实用在线工具和技术文章,包括AI驱动的图片编辑工具和智能文件重命名工具,帮助提升工作效率。"
+sitemap: true
 ---
 
 <div class="hero-section">
