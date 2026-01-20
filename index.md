@@ -44,3 +44,27 @@ sitemap: true
   <!-- 文章列表会自动显示在这里 -->
 </div>
 
+## 🔗 友情链接
+
+<div class="blogroll-section">
+  <p class="blogroll-intro">发现更多优质内容，与志同道合的博主一起交流学习</p>
+  
+  <div class="blogroll-list">
+    {% for link in site.data.blogroll.links %}
+    <div class="blogroll-item">
+      <h3>
+        <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer nofollow">
+          {{ link.name }} ↗
+        </a>
+      </h3>
+      <p class="blogroll-description">{{ link.description }}</p>
+      <div class="blogroll-tags">
+        {% for tag in link.tags %}
+        <span class="tag">{{ tag }}</span>
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+

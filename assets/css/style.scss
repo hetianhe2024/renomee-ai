@@ -333,6 +333,85 @@
   }
 }
 
+/* Blogroll Section */
+.blogroll-section {
+  margin-top: 3rem;
+  padding: 2rem 0;
+}
+
+.blogroll-intro {
+  text-align: center;
+  color: var(--secondary-color);
+  font-size: 1.05rem;
+  margin-bottom: 2rem;
+  font-style: italic;
+}
+
+.blogroll-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.blogroll-item {
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+  box-shadow: var(--shadow);
+}
+
+.blogroll-item:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--primary-color);
+}
+
+.blogroll-item h3 {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  font-size: 1.25rem;
+}
+
+.blogroll-item h3 a {
+  color: #1e293b;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.blogroll-item h3 a:hover {
+  color: var(--primary-color);
+}
+
+.blogroll-description {
+  color: var(--secondary-color);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.blogroll-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.blogroll-tags .tag {
+  display: inline-block;
+  background: var(--bg-light);
+  color: var(--secondary-color);
+  padding: 0.25rem 0.75rem;
+  border-radius: 1rem;
+  font-size: 0.8rem;
+  transition: all 0.3s;
+}
+
+.blogroll-tags .tag:hover {
+  background: var(--primary-color);
+  color: white;
+}
+
 /* Dark Mode Support */
 @media (prefers-color-scheme: dark) {
   :root {
@@ -340,17 +419,25 @@
     --secondary-color: #94a3b8;
   }
   
-  .tool-card {
+  .tool-card,
+  .blogroll-item {
     background: #334155;
     border-color: #475569;
     color: #e2e8f0;
   }
   
-  .tool-card h3 {
+  .tool-card h3,
+  .blogroll-item h3 a {
     color: #f1f5f9;
   }
   
-  .tool-card p {
+  .tool-card p,
+  .blogroll-description {
+    color: #cbd5e1;
+  }
+  
+  .blogroll-tags .tag {
+    background: #1e293b;
     color: #cbd5e1;
   }
 }
