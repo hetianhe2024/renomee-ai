@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "图片压缩算法优化：从"过度压缩"到"精准达标"的技术实践"
+title: "图片压缩算法优化：从「过度压缩」到「精准达标」的技术实践"
 date: 2025-01-20
 categories: [技术实践, 算法优化]
-tags: [图片压缩, 算法优化, Python, ImageMagick, 滴答修]
-description: "深度解析滴答修图片压缩算法优化过程：如何从单维度二分查找升级到动态二维搜索，将压缩精度从偏离目标85%提升至0.3%，实现真正的'精准达标'。"
+tags: [图片压缩, 算法优化, Python, 滴答修]
+description: "深度解析滴答修图片压缩算法优化过程：如何从单维度二分查找升级到动态二维搜索，将压缩精度从偏离目标85%提升至0.3%，实现真正的精准达标。"
 image: /assets/images/image-compression-optimization.jpg
 ---
 
