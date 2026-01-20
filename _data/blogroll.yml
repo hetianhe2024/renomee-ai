@@ -3,4 +3,7 @@ links:
   - name: "Ai renomee 博客"
     url: "https://renomeeai.wordpress.com/"
     description: "AI 探索空间，分享简洁易懂的 AI 教程，打破技术壁垒，让前沿 AI 真正服务于每个人的日常生活"
-    tags: ["AI", "教程", "工具分享"]
+    tags:
+      - AI
+      - 教程
+      - 工具分享
