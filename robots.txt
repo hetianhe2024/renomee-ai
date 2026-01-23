@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /search
 
 Sitemap: https://hetianhe2024.github.io/renomee-ai/sitemap.xml
