@@ -38,7 +38,7 @@ Renomee AI 致力于用 AI 技术让日常工作变得更简单、更高效。�
 
 #### Renomee AI - 文件重命名工具
 
-[xiaojingjia.top](https://xiaojingjia.top)
+[renomeeai.com](https://renomeeai.com)
 
 告别正则表达式，用自然语言描述重命名需求的桌面应用：
 
@@ -77,7 +77,7 @@ Renomee AI 致力于用 AI 技术让日常工作变得更简单、更高效。�
 
 - **邮箱**：hetianhe2009@163.com
 - **滴答修官网**：[https://xiaojingxiu.com](https://xiaojingxiu.com)
-- **Renomee AI官网**：[https://xiaojingjia.top](https://xiaojingjia.top)
+- **Renomee AI官网**：[https://renomeeai.com](https://renomeeai.com)
 
 ---
 

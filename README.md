@@ -7,7 +7,7 @@
 Renomee AI 致力于用 AI 技术让日常工作变得更简单、更高效。我们开发了多款实用工具产品：
 
 - **滴答修**（xiaojingxiu.com）- 按次计费的图片处理工具
-- **Renomee AI**（xiaojingjia.top）- AI 驱动的文件重命名工具
+- **Renomee AI**（renomeeai.com）- AI 驱动的文件重命名工具
 
 ## ✨ 博客特性
 
@@ -144,7 +144,7 @@ baseurl: "/renomee-ai"
 
 - 邮箱：hetianhe2009@163.com
 - 滴答修官网：https://xiaojingxiu.com
-- Renomee AI官网：https://xiaojingjia.top
+- Renomee AI官网：https://renomeeai.com
 
 ## 📄 许可证
 

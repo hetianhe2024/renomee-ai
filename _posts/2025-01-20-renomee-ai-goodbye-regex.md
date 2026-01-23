@@ -41,7 +41,7 @@ image: /assets/images/renomee-ai.jpg
 
 ## Renomee AI：用自然语言替代正则表达式
 
-[Renomee AI](https://xiaojingjia.top) 的出现，彻底改变了这个局面。
+[Renomee AI](https://renomeeai.com) 的出现，彻底改变了这个局面。
 
 ### 告别复杂语法，用人话描述需求
 
@@ -162,7 +162,7 @@ AI 理解上下文，减少人为错误。
 
 ### 下载体验
 
-访问 [xiaojingjia.top](https://xiaojingjia.top) 下载 Renomee AI：
+访问 [renomeeai.com](https://renomeeai.com) 下载 Renomee AI：
 
 - **Windows 10+** 支持
 - **macOS 10.15+** 支持
@@ -181,7 +181,7 @@ Renomee AI 用 AI 技术消除了这个门槛，让文件重命名回归本质�
 
 ---
 
-**立即体验：** [https://xiaojingjia.top](https://xiaojingjia.top)
+**立即体验：** [https://renomeeai.com](https://renomeeai.com)
 
 **更多工具推荐：**
 - [图片编辑工具 - xiaojingxiu.com](https://xiaojingxiu.com)
