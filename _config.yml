@@ -47,7 +47,7 @@ exclude:
   - Gemfile.lock
   - vendor/
   - "*.py"
-  - "*.txt"
+  - urls.txt
 
 # 默认设置：根目录的所有markdown文件不进入sitemap
 defaults:
