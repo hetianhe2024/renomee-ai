@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Technical SEO & Workflow Resources for AI-Based File Tools and URL Consistency"
+title: "Technical SEO Resources: URL Canonicals & AI Workflows"
 date: 2026-02-10
 categories: [SEO, Workflow]
 tags: [technical-seo, canonical, indexing, bing, github-pages]
