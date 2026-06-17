@@ -1,6 +1,6 @@
 # 网站基本配置
-title: Renomee AI 博客
-description: 分享实用在线工具和技术文章，包括AI驱动的图片编辑工具和智能文件重命名工具，帮助提升工作效率
+title: Renomee AI 文件整理博客
+description: 聚焦AI文件重命名、文件命名规范与文件整理工作流的 supporting content hub，帮助普通用户更高效地整理文档、照片与下载文件
 baseurl: "/renomee-ai"
 url: "https://hetianhe2024.github.io"
 lang: zh-CN
@@ -30,6 +30,27 @@ social:
 author:
   name: Renomee AI
   email: hetianhe2009@163.com
+
+renomee:
+  links:
+    homepage: "https://renomeeai.com/"
+    features: "https://renomeeai.com/en/product/features/"
+    blog: "https://renomeeai.com/en/blog/"
+    blog_windows: "https://renomeeai.com/en/blog/rename-1000-files-10-seconds-windows11/"
+    blog_regex: "https://renomeeai.com/en/blog/ai-vs-regex-file-renaming/"
+    blog_invoice: "https://renomeeai.com/en/blog/invoice-batch-rename-ocr/"
+    blog_logistics: "https://renomeeai.com/en/blog/logistics-document-batch-rename/"
+    blog_tools_compare: "https://renomeeai.com/en/blog/windows-batch-rename-tools-comparison/"
+    docs_home: "https://renomeeai.readthedocs.io/en/latest/"
+    docs_quickstart: "https://renomeeai.readthedocs.io/en/latest/quickstart/"
+    docs_how_to: "https://renomeeai.readthedocs.io/en/latest/how-to/"
+    docs_rename_content: "https://renomeeai.readthedocs.io/en/latest/how-to/rename-files-by-content/"
+    docs_rename_pdf: "https://renomeeai.readthedocs.io/en/latest/how-to/rename-pdf-by-title/"
+    docs_rename_scanned: "https://renomeeai.readthedocs.io/en/latest/how-to/rename-scanned-pdfs-automatically/"
+    docs_photo_exif: "https://renomeeai.readthedocs.io/en/latest/how-to/batch-rename-photos-by-exif/"
+    docs_use_cases: "https://renomeeai.readthedocs.io/en/latest/use-cases/"
+    docs_research: "https://renomeeai.readthedocs.io/en/latest/use-cases/research/"
+    docs_file_types: "https://renomeeai.readthedocs.io/en/latest/file-types/"
 
 # 网站Logo
 logo: /assets/images/logo.png

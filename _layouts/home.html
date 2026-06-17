@@ -21,6 +21,12 @@ layout: default
               {{ post.date | date: "%Y年%m月%d日" }}
             </time>
           </div>
+
+          {%- if post.description -%}
+          <p class="post-excerpt">{{ post.description }}</p>
+          {%- elsif site.show_excerpts -%}
+          <p class="post-excerpt">{{ post.excerpt | strip_html | truncate: 160 }}</p>
+          {%- endif -%}
         </div>
       </li>
       {%- endfor -%}
