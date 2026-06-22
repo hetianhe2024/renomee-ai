@@ -48,9 +48,6 @@ exclude:
   - vendor/
   - "*.py"
   - urls.txt
-  - google6c9b7e46429bce06.html
-  - BingSiteAuth.xml
-  - cccb4286654e4b24a35216f3d00bb49f.txt
 
 # 默认设置：根目录的所有markdown文件不进入sitemap
 defaults:
