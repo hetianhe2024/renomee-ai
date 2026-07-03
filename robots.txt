@@ -3,3 +3,4 @@ Allow: /
 Disallow: /search
 
 Sitemap: https://hetianhe2024.github.io/renomee-ai/sitemap.xml
+Sitemap: https://hetianhe2024.github.io/renomee-ai/sitemap.txt
