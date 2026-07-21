@@ -1,155 +1,181 @@
-# Renomee AI 博客
+# Renomee AI - AI Batch File Renamer That Reads File Content
 
-🚀 基于 Jekyll 构建的现代化博客网站，分享实用工具和技术文章。
+Renomee AI is an AI batch file renaming tool for Windows, macOS, and Linux. It helps users rename large groups of files by reading real file content, metadata, and natural language instructions instead of relying only on existing filenames, regex rules, or manual editing.
 
-## 📖 关于
+Official website: https://renomeeai.com/
 
-Renomee AI 致力于用 AI 技术让日常工作变得更简单、更高效。我们开发了多款实用工具产品：
+## 中文简介：Renomee AI 是什么？
 
-- **滴答修**（xiaojingxiu.com）- 按次计费的图片处理工具
-- **Renomee AI**（renomeeai.com）- AI 驱动的文件重命名工具
+Renomee AI 是一款 AI 批量文件重命名工具，支持 Windows、macOS 和 Linux。它不是简单替换文件名格式，而是读取文件内容和元数据后生成更有意义的文件名，例如根据 PDF 标题和作者重命名论文，根据照片 EXIF 拍摄时间重命名图片，根据音频 ID3 标签重命名音乐文件。
 
-## ✨ 博客特性
+用户不需要写正则表达式或脚本，只需要用自然语言描述规则，例如“按 PDF 标题和作者重命名”“按拍摄日期加序号重命名照片”“把文件名中的空格替换成下划线”。Renomee AI 会先生成预览，用户确认后再执行重命名。
 
-- 🎨 现代化、响应式设计
-- 📱 移动端完美适配
-- 🔍 SEO 优化
-- 📚 文章分类和归档
-- 🏷️ 标签系统
-- 🔗 社交分享功能
-- 🌓 深色模式支持
-- ⚡ 快速加载
+Renomee AI 适合整理下载文件、研究论文、照片库、合同文档、工作资料、音乐文件和大量命名混乱的文件夹。官网地址：https://renomeeai.com/
 
-## 🛠️ 技术栈
+## What Is Renomee AI?
 
-- Jekyll 4.x
-- GitHub Pages
-- Minima 主题（自定义增强）
-- 响应式 CSS
-- SEO 插件
+Renomee AI is a content-aware batch file renamer. It can read PDF titles, document information, photo EXIF metadata, audio ID3 tags, file dates, and other metadata to generate meaningful filenames automatically.
 
-## 🚀 本地运行
+Instead of writing scripts or regular expressions, users can describe a rule in plain English, preview the new filenames, and confirm the changes before applying them.
 
-### 前提条件
+Example instructions:
 
-- Ruby 2.7+
-- Bundler
+- Rename PDFs by title and author
+- Rename photos by date taken and sequence number
+- Rename music files by artist, album, and track number
+- Replace spaces with underscores and convert names to lowercase
+- Extract contract party names from documents and move them to the front
 
-### 安装步骤
+## Why Renomee AI Exists
 
-```bash
-# 克隆仓库
-git clone https://github.com/hetianhe2024/renomee-ai.git
-cd renomee-ai
+Many files arrive with names like `IMG_4829.jpg`, `document(1).pdf`, `track01.mp3`, or `final_v3_copy.pdf`. These names are hard to search, sort, archive, or share.
 
-# 安装依赖
-bundle install
+Traditional batch renaming tools usually change filename format. Renomee AI focuses on changing filenames based on file meaning.
 
-# 启动本地服务器
-bundle exec jekyll serve
+It is designed for people who manage large numbers of documents, photos, audio files, research papers, contracts, screenshots, downloaded files, and work archives.
 
-# 访问 http://localhost:4000/renomee-ai
-```
+## Key Features
 
-## 📝 发布新文章
+- AI-powered batch file renaming
+- Reads real file content and metadata
+- Natural language renaming rules
+- Preview before applying changes
+- Supports Windows, macOS, and Linux
+- Works with PDFs, documents, photos, audio, video, text files, and metadata
+- Handles 1,000+ small files quickly
+- No regex or coding required
+- Useful free tier with daily rename quota
 
-1. 在 `_posts` 目录下创建新文件，命名格式：`YYYY-MM-DD-title.md`
-2. 添加 Front Matter：
+## Content-Aware Renaming
 
-```yaml
----
-layout: post
-title: "文章标题"
-date: 2025-01-20
-categories: [分类1, 分类2]
-tags: [标签1, 标签2]
-description: "文章描述，用于 SEO"
----
-```
+Renomee AI can generate filenames from information inside or attached to files.
 
-3. 编写 Markdown 内容
-4. 提交并推送到 GitHub
+For PDFs, it can use titles, authors, text content, and document metadata.
 
-## 📂 项目结构
+For photos, it can use EXIF information such as date taken, camera model, GPS data, and file metadata.
 
-```
-renomee-ai/
-├── _posts/              # 博客文章
-├── _layouts/            # 页面布局
-│   ├── home.html       # 首页布局
-│   └── post.html       # 文章布局
-├── _includes/           # 可复用组件
-│   └── share-buttons.html
-├── _data/              # 数据文件
-│   └── navigation.yml  # 导航配置
-├── assets/
-│   └── css/
-│       └── style.scss  # 自定义样式
-├── _config.yml         # 网站配置
-├── index.md            # 首页
-├── about.md            # 关于页面
-├── categories.md       # 分类页面
-├── archive.md          # 归档页面
-└── README.md
-```
+For audio files, it can use ID3 tags such as artist, album, track title, and track number.
 
-## 🎨 自定义样式
+For general files, it can use modified date, file size, extension, numbering rules, and custom formatting instructions.
 
-博客使用自定义 CSS 增强了默认的 Minima 主题：
+## Example Use Cases
 
-- 渐变色 Hero 区域
-- 工具卡片展示
-- 优化的文章列表
-- 美化的代码块
-- 改进的表格样式
-- 社交分享按钮
+### Rename Research Papers
 
-所有样式都在 `assets/css/style.scss` 中定义。
+Turn downloaded academic PDFs into readable filenames.
 
-## 🔧 配置
+Before:
 
-主要配置在 `_config.yml` 中：
+- `downloaded_paper.pdf`
+- `1234567.pdf`
+- `final_v3_copy.pdf`
 
-```yaml
-title: Renomee AI 博客
-description: 分享实用在线工具和技术文章
-url: "https://hetianhe2024.github.io"
-baseurl: "/renomee-ai"
-```
+After:
 
-## 📱 页面
+- `deep-learning-image-recognition-2024.pdf`
+- `neural-network-optimization-methods-2023.pdf`
+- `natural-language-processing-survey-2024.pdf`
 
-- **首页** (`/`) - 展示工具和最新文章
-- **关于** (`/about/`) - 团队和产品介绍
-- **分类** (`/categories/`) - 按分类浏览文章
-- **归档** (`/archive/`) - 按时间浏览文章
+### Rename Photos by Date Taken
 
-## 🌐 部署
+Organize camera uploads and phone photos by actual shooting time.
 
-本站自动部署到 GitHub Pages：
+Example rule:
 
-1. 推送代码到 `main` 分支
-2. GitHub Actions 自动构建
-3. 发布到 https://hetianhe2024.github.io/renomee-ai
+`Rename by date taken + location + sequence number`
 
-## 📊 SEO 优化
+### Rename Music Files by Tags
 
-- 使用 `jekyll-seo-tag` 插件
-- 每篇文章都有 meta description
-- 生成 sitemap.xml
-- 配置 robots.txt
-- 结构化数据标记
+Convert messy audio filenames into structured names using artist, album, and track data.
 
-## 📮 联系方式
+Example rule:
 
-- 邮箱：hetianhe2009@163.com
-- 滴答修官网：https://xiaojingxiu.com
-- Renomee AI官网：https://renomeeai.com
+`Rename by artist - album - track number - title`
 
-## 📄 许可证
+### Rename Work Documents
 
-本项目仅供学习和个人使用。
+Use document content to create searchable names for contracts, invoices, reports, meeting notes, and scanned files.
 
----
+Example rule:
 
-💡 如有问题或建议，欢迎提 Issue 或 PR！
+`Put contract party name and date at the beginning of each filename`
+
+## Privacy and Local Processing
+
+Renomee AI is designed as desktop software. PDF, Word, Excel, photo EXIF, and file metadata reading happen on the user's computer.
+
+Files do not leave the computer during normal local processing.
+
+OCR for scanned PDFs or images may require a server call. Renomee AI asks for permission before using OCR, and users can decline.
+
+## Renomee AI vs Traditional Batch Rename Tools
+
+Traditional batch rename tools are useful when filenames already contain the information you need. Renomee AI is useful when the useful information is inside the file.
+
+Use Renomee AI when:
+
+- Existing filenames are meaningless
+- You want filenames based on document titles or authors
+- You need to rename photos by actual date taken
+- You want to rename music using ID3 tags
+- You prefer plain English instructions over regex
+- You need to preview all changes before applying them
+
+## Who Should Use Renomee AI?
+
+Renomee AI is useful for:
+
+- Researchers managing large PDF libraries
+- Photographers organizing image folders
+- Office workers renaming contracts and reports
+- Students collecting papers, notes, and downloads
+- Music collectors organizing audio files
+- Anyone who regularly renames files one by one
+
+## Download Renomee AI
+
+Download the desktop app from the official website:
+
+https://renomeeai.com/
+
+Renomee AI currently offers a free tier with daily rename quota, plus paid options for larger batches.
+
+## About This Repository
+
+This repository hosts the Renomee AI blog and related website content.
+
+The main software product is Renomee AI, available at:
+
+https://renomeeai.com/
+
+The blog shares tutorials, file organization tips, batch renaming workflows, AI renaming examples, and practical guides for managing documents, photos, audio files, and work archives.
+
+## FAQ
+
+### Is Renomee AI a batch file renamer?
+
+Yes. Renomee AI is a batch file renaming tool that can rename many files at once using natural language rules and file content extraction.
+
+### Can Renomee AI rename files by PDF title?
+
+Yes. Renomee AI can read PDF titles, authors, metadata, and text content to generate meaningful PDF filenames.
+
+### Can Renomee AI rename photos by EXIF data?
+
+Yes. Renomee AI can use photo metadata such as date taken, camera model, GPS data, and other EXIF fields.
+
+### Can Renomee AI rename music files by ID3 tags?
+
+Yes. Renomee AI can use audio metadata such as artist, album, track number, and title.
+
+### Do I need regex or coding?
+
+No. Renomee AI supports plain English instructions. You can describe the naming rule naturally and preview the results before renaming.
+
+### Do files get uploaded?
+
+Normal local content reading happens on your computer. OCR for scanned documents or images may require a server call and asks for user permission first.
+
+## Related Keywords
+
+AI batch file renamer, batch file renaming tool, rename files by content, PDF title renamer, photo EXIF renamer, audio ID3 tag renamer, natural language file renamer, Windows file renamer, macOS file renamer, rename files without regex, content-aware file renaming.
