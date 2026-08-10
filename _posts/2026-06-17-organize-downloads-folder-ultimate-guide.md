@@ -189,8 +189,8 @@ Hazel 可以创建高级规则，例如：
 
 **适用场景：**
 
-- 📸 **摄影师**：自动为照片添加拍摄主题、地点、日期
-- 📄 **办公人员**：规范化合同、报告、发票文件名
+- 📸 **摄影师**：[照片批量重命名](https://renomeeai.com/rename-files/photo/)，自动添加拍摄主题、地点、日期
+- 📄 **办公人员**：[PDF 批量重命名](https://renomeeai.com/rename-files/pdf/)，规范化合同、报告、发票文件名
 - 🎥 **视频创作者**：为素材文件生成易于检索的名称
 - 🗂️ **个人用户**：整理多年积累的混乱文件
 
@@ -273,7 +273,7 @@ Hazel 可以创建高级规则，例如：
 ### ✅ 步骤 2：设置自动化规则（本周完成）
 
 1. 根据你的操作系统选择工具（PowerShell/Automator/Hazel）
-2. 配置基础的"按扩展名分类"规则
+2. 配置基础的"按扩展名分类"规则（参考：[Windows 批量重命名工具指南](https://renomeeai.com/rename-files/windows/)）
 3. 设置定时任务（每天或每周执行）
 
 ### ✅ 步骤 3：尝试 AI 重命名工具（本月完成）
@@ -302,6 +302,9 @@ Hazel 可以创建高级规则，例如：
 
 🔗 **Renomee AI 官网**：[https://renomeeai.com](https://renomeeai.com)  
 🔗 **产品功能地图**：[https://renomeeai.com/product/features/](https://renomeeai.com/product/features/)  
+🔗 **照片批量重命名**：[https://renomeeai.com/rename-files/photo/](https://renomeeai.com/rename-files/photo/)  
+🔗 **PDF 批量重命名**：[https://renomeeai.com/rename-files/pdf/](https://renomeeai.com/rename-files/pdf/)  
+🔗 **Windows 重命名工具**：[https://renomeeai.com/rename-files/windows/](https://renomeeai.com/rename-files/windows/)  
 🔗 **文件管理工具对比**：[File Organization Tools 2026](https://renomeeai.com/blog/windows-batch-rename-tools-comparison/)  
 
 📧 **技术交流**：hetianhe2009@163.com

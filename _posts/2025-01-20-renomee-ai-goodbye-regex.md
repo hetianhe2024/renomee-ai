@@ -65,7 +65,7 @@ AI 能够理解你的真实意图：
 更强大的是，AI 还能识别文件内容：
 - 识别照片场景（海滩、山景、美食）
 - 提取拍摄时间和地点
-- 分析文档主题
+- [根据 PDF 文档内容自动命名](https://renomeeai.com/rename-files/pdf/rename-pdf-based-on-content/)（合同、报告、收据等）
 
 #### 3. 预览确认机制
 在真正重命名之前，你能看到：
@@ -93,6 +93,8 @@ AI 能够理解你的真实意图：
 
 **Renomee AI：**
 > "把照片重命名为'家庭照片'开头，日期用横杠分隔"
+
+> 📸 专题：[照片批量重命名完整指南](https://renomeeai.com/rename-files/photo/)
 
 ### 场景 2：工作文档管理
 
@@ -184,6 +186,8 @@ Renomee AI 用 AI 技术消除了这个门槛，让文件重命名回归本质�
 **立即体验：** [https://renomeeai.com](https://renomeeai.com)
 
 **更多工具推荐：**
+- [文件重命名功能完整介绍](https://renomeeai.com/rename-files/)
+- [照片批量重命名方案](https://renomeeai.com/rename-files/photo/)
 - [图片编辑工具 - xiaojingxiu.com](https://xiaojingxiu.com)
 
 💡 *有问题或使用心得？欢迎在评论区留言讨论！*

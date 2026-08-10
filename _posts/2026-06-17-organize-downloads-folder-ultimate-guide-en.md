@@ -189,8 +189,8 @@ According to [Renomee AI's sitemap](https://renomeeai.com/en/product/features/),
 
 **Use Cases:**
 
-- 📸 **Photographers**: Auto-add shooting themes, locations, dates to photos
-- 📄 **Office Workers**: Standardize contracts, reports, invoice filenames
+- 📸 **Photographers**: [Batch rename photos](https://renomeeai.com/en/rename-files/photo/) — auto-add shooting themes, locations, dates
+- 📄 **Office Workers**: [Batch rename PDFs](https://renomeeai.com/en/rename-files/pdf/) — standardize contracts, reports, invoice filenames
 - 🎥 **Video Creators**: Generate searchable names for footage files
 - 🗂️ **Personal Users**: Organize years of accumulated chaotic files
 
@@ -273,7 +273,7 @@ If you've read this far, you're ready to transform your chaotic file management.
 ### ✅ Step 2: Set Automation Rules (Complete This Week)
 
 1. Choose tool based on your OS (PowerShell/Automator/Hazel)
-2. Configure basic "sort by extension" rules
+2. Configure basic "sort by extension" rules (see: [Windows batch file renaming guide](https://renomeeai.com/en/rename-files/windows/))
 3. Set scheduled task (execute daily or weekly)
 
 ### ✅ Step 3: Try AI Renaming Tool (Complete This Month)
@@ -302,6 +302,9 @@ Open your Downloads folder now and take the first step!
 
 🔗 **Renomee AI Official Website**: [https://renomeeai.com](https://renomeeai.com)  
 🔗 **Product Feature Map**: [https://renomeeai.com/en/product/features/](https://renomeeai.com/en/product/features/)  
+🔗 **Batch Rename Photos**: [https://renomeeai.com/en/rename-files/photo/](https://renomeeai.com/en/rename-files/photo/)  
+🔗 **Batch Rename PDFs**: [https://renomeeai.com/en/rename-files/pdf/](https://renomeeai.com/en/rename-files/pdf/)  
+🔗 **Windows File Renaming Tools**: [https://renomeeai.com/en/rename-files/windows/](https://renomeeai.com/en/rename-files/windows/)  
 🔗 **File Management Tools Comparison**: [File Organization Tools 2026](https://renomeeai.com/en/blog/windows-batch-rename-tools-comparison/)  
 
 📧 **Technical Contact**: hetianhe2009@163.com
